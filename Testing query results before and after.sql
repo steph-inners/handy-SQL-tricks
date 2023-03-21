@@ -3,8 +3,8 @@
 	The edited query must have the same columns as the original,
 	so this is best used for changes to WHERE clauses, calculations, etc.
 
-	Results marked as "new" are records that show in the new query but not the old.
-	Results marked as "old" are records that were dropped/changed by your query.
+	Records marked as "new" are the results of your changes.
+	Records marked as "old" were dropped/changed by your query.
 */
 
 with new as (
