@@ -1,7 +1,6 @@
 /*
 	Use this format to test how a query edit changes your results.
-	The edited query must have the same columns as the original,
-	so this is best used for changes to WHERE clauses, calculations, etc.
+	The edited query must have the same columns as the original.
 
 	Records marked as "new" are the results of your changes.
 	Records marked as "old" were dropped/changed by your query.
